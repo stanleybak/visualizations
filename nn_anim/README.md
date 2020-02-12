@@ -1,6 +1,8 @@
 # Neural Network Execution Visualization
 
+<p align="center"> 
 [<img src="https://img.youtube.com/vi/mkHj3hJNM18/0.jpg" width="50%">](https://youtu.be/mkHj3hJNM18)
+</p>
 
 This animation shows a layer-by-layer execution of the ACAS Xu neural network [1], with network 5-1 using the initial
 set of states for property 3.
