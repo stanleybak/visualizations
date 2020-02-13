@@ -7,6 +7,7 @@ This folder computes visualizations of discrepancy functions for the Vanderpol s
 The system dynamics are:
 
 x' = y
+
 y' = (1 - x^2) * y - x
 
 [1] "Reducing the Wrapping Effect in Flowpipe Construction using Pseudo-Invariants", S. Bak, Fourth Workshop on Design, Modeling and Evaluation of Cyber Physical Systems (CyPhy 2014)
