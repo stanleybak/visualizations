@@ -1,6 +1,6 @@
 # ACAS Xu Visualization
 
-[<img src="sim.png" width="50%">]
+<img src="sim.png" width="50%">
 
 This animation shows closed-loop simulations of the ACAS-Xu systex [1], using the onnx runtime and assuming the vertical seperation of the aircraft is 0.
 
