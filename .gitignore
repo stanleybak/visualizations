@@ -10,3 +10,4 @@ TAGS
 .cache
 __pycache__
 *.mp4
+*.mypy_cache*
