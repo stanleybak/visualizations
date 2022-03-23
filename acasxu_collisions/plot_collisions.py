@@ -545,18 +545,18 @@ def plot(states, save_mp4):
 
     init_plot()
 
-    fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(8, 8))
+    fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(9, 7))
     axes.axis('equal')
     axes.set_xlim([-50000, 50000])
     axes.set_ylim([-50000, 50000])
 
-    axes.set_title("ACAS Xu Simulations")
+    axes.set_title("Collision Avoidance System Simulations")
     axes.set_xlabel('X Position (ft)')
     axes.set_ylabel('Y Position (ft)')
 
-    time_text = axes.text(0.02, 0.98, 'Time: 0', horizontalalignment='left', fontsize=14,
+    time_text = axes.text(0.02, 0.98, 'Time: 0', horizontalalignment='left', fontsize=16,
                           verticalalignment='top', transform=axes.transAxes)
-    time_text.set_visible(True)
+    time_text.set_visible(False)
 
     custom_lines = [Line2D([0], [0], color='g', lw=2),
                     Line2D([0], [0], color='b', lw=2),
@@ -758,7 +758,7 @@ def main():
         d = round(s.min_dist, 2)
         print(f"\nSeed {seed} has min_dist {d}ft")
 
-    save_mp4 = False
+    save_mp4 = True
     plot(states, save_mp4)
 
 if __name__ == "__main__":
